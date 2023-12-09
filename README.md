@@ -1,4 +1,4 @@
-# 🐳 Entorno dockerizado para Symfony.6.3.* 🐳
+# 🐳 Entorno dockerizado para Symfony.6.4.* 🐳
 
 ## Descripción
 
@@ -6,7 +6,7 @@ Este entorno incluye todo lo necesario para desarrollar una aplicación bajo Sym
 
 ## Lo que incluye:
 
-1. **Symfony 6.3.*** -> Se generará un esqueleto con la última versión 6.3 de Symfony.
+1. **Symfony 6.4.*** -> Se generará un esqueleto con la última versión 6.4 (LTS) de Symfony.
 2. **PostgreSQL** -> El SGBD (sistema gestor de base de datos) utilizado.
 3. **PHP 8.2** -> La versión de PHP utilizada.
 4. **Nginx (Alpine)** -> El servidor web utilizado

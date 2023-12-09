@@ -35,10 +35,9 @@ RUN chown -R www-data:www-data /var/www && chmod -R 774 /var/www
 RUN usermod -a -G www-data ${USER}
 USER ${USER}
 
-RUN composer create-project symfony/skeleton:"6.3.*" /var/www/html
+RUN composer create-project symfony/skeleton:"6.4.*@dev" /var/www/html
 RUN cd /var/www/html
 RUN composer require webapp
-RUN composer require --dev symfony/profiler-pack
 
 ENV SHELL /bin/bash
 
