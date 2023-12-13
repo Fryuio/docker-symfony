@@ -24,7 +24,7 @@ Este entorno incluye todo lo necesario para desarrollar una aplicación bajo Sym
 1. Clonar este repositorio:
 
    ```
-   git clone https://github.com/Fryuio/docker-symfony6.3.git
+   git clone https://github.com/Fryuio/docker-symfony
    ```
 2. Modificar la configuración por defecto en el archivo **.env** (opcional)**:**
 
